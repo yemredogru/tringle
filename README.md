@@ -2,6 +2,10 @@ Transactions - API
 
 Turkish 
 
+Projeyi çalıştırabilmek için Terminal kısmına npm install komutunu yazınız.</br>
+Kurulumlar başarıyla tamamlandıktan sonra npm start komutu ile projeyi çalıştırabilirsiniz.</br>
+Test'i çalıştırmak için npm test yazarak test işleminin sonucunu görebilirsiniz.</br>
+
 <h4>Hesap Oluşturma Doğrulamaları</h4>
 &#x2022;Hesap numarası sadece rakamlardan oluşmalıdır.</br>
 &#x2022;Para birimi TRY,EUR veya USD olabilir.</br>
@@ -166,6 +170,10 @@ Turkish
 </br>
 English
 
+
+To run the project, type the npm install command in Terminal.</br>
+After the installations are completed successfully, you can run the project with the npm start command.</br>
+You can see the result of the test by typing npm test to run the test.</br>
 
 <h4>Account Creation Verifications</h4>
 &#x2022;Account number must consist of numbers only.</br>
