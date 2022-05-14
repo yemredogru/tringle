@@ -2,10 +2,6 @@ Transactions - API
 
 Turkish 
 
-Projeyi çalıştırabilmek için Terminal kısmına npm install komutunu yazınız.</br>
-Kurulumlar başarıyla tamamlandıktan sonra npm start komutu ile projeyi çalıştırabilirsiniz.</br>
-Test'i çalıştırmak için npm test yazarak test işleminin sonucunu görebilirsiniz.</br>
-
 <h4>Hesap Oluşturma Doğrulamaları</h4>
 &#x2022;Hesap numarası sadece rakamlardan oluşmalıdır.</br>
 &#x2022;Para birimi TRY,EUR veya USD olabilir.</br>
@@ -163,11 +159,32 @@ Test'i çalıştırmak için npm test yazarak test işleminin sonucunu görebili
 </tbody>
 </table>
 
+<h2 dir="auto"><a id="user-content-how-to-run-the-project" class="anchor" aria-hidden="true" href="#how-to-run-the-project"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Projeyi nasıl çalıştırabilirim?</h2>
+<p dir="auto">Projeyi çalıştırmadan önce,<a href="https://nodejs.org/en/" rel="nofollow">Node.js</a> bilgisayarınızda kurulu olmalıdır.<br>
+<div class="highlight highlight-source-shell position-relative overflow-auto" data-snippet-clipboard-copy-content="# Clone this repository                             $ http://localhost:3333/users"><pre><span class="pl-c"><span class="pl-c">#</span> Bu depoyu klonla </span>
+
+ git clone https://github.com/yemredogru/tringle
+
+<span class="pl-c"><span class="pl-c">#</span> Projeye terminalden erişim sağlama.</span>
+ <span class="pl-c1">cd</span> tringle
+
+<span class="pl-c"><span class="pl-c">#</span> Bağımlılıkları yükle</span>
+npm install
+
+<span class="pl-c"><span class="pl-c">#</span> Çalıştır</span>
+npm start
+
+<span class="pl-c"><span class="pl-c">#</span> Test'i Çalıştır</span>
+npm test
+
+</div>
 </br>
 </br>
 <hr/>
 </br>
 </br>
+
+
 English
 
 
@@ -332,4 +349,22 @@ You can see the result of the test by typing npm test to run the test.</br>
 </tbody>
 </table>
 
+<h2 dir="auto"><a id="user-content-how-to-run-the-project" class="anchor" aria-hidden="true" href="#how-to-run-the-project"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>How can I run the project?</h2>
+<p dir="auto">Before running the project,<a href="https://nodejs.org/en/" rel="nofollow">Node.js</a> must be installed on your computer.<br>
+<div class="highlight highlight-source-shell position-relative overflow-auto" data-snippet-clipboard-copy-content="# Clone this repository                             $ http://localhost:3333/users"><pre><span class="pl-c"><span class="pl-c">#</span> Clone this repository </span>
 
+ git clone https://github.com/yemredogru/tringle
+
+<span class="pl-c"><span class="pl-c">#</span> Access the repository on your terminal.</span>
+ <span class="pl-c1">cd</span> tringle
+
+<span class="pl-c"><span class="pl-c">#</span> Install dependencies</span>
+npm install
+
+<span class="pl-c"><span class="pl-c">#</span> Run</span>
+npm start
+
+<span class="pl-c"><span class="pl-c">#</span> Run Test</span>
+npm test
+
+</div>
